@@ -8,7 +8,7 @@ const TableRow = ({ data }) => {
           return name || image || current_price ? (
             <div key={id} className="box">
               <h3>currenyName : {name}</h3>
-              <img src={image} alt="image" />
+              <img src={image} alt="" />
               <h4>current_price : {current_price}</h4>
             </div>
           ) : (
