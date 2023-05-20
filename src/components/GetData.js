@@ -15,7 +15,7 @@ const GetData = ({ setFunc }) => {
       setFunc(jsonData);
     };
     fetchData();
-  });
+  }, []);
 
   //   optional way--- prop drilling
 
